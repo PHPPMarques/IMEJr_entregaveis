@@ -1,0 +1,96 @@
+body {
+    padding-left: 0;
+    padding-right: 0;
+    background-color: rgba(17, 50, 243, 0.678);
+    
+}
+
+
+.Titulo{
+    text-align: center;
+    padding: 5px 0 20px;
+    color: wheat;
+}
+
+.Titulo h1{
+
+    text-transform: uppercase;
+    font-size: 26px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.Caixa{
+    width: 50%;
+    height: 400px;
+    background: #fff;
+    margin: 0 auto;
+    border: 2px solid #fff;
+    box-shadow: 0 15px 40px rgba(0,0,0,.5);
+}
+
+.Entradas {
+    width: 50%;
+    padding: 10px 270px;
+    margin-top: 40px;
+}
+
+.Entradas input{
+    margin-bottom: 20px;
+    
+}
+
+.Entradas a{
+
+    padding: 0px;
+    
+}
+
+.Entradas p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    color: #a6af13;
+}
+
+.Entradas input[type="text"],
+.Entradas input[type="Password"]{
+    border: none;
+    border-bottom: 2px solid #a6af13;
+    outline: none;
+
+
+}
+
+.Entradas input[type="text"]:focus{
+    border-bottom: 2px solid #262626;
+}
+
+.Entradas input[type="Password"]:focus{
+    border-bottom: 2px solid #262626;
+}
+
+.Entradas input[type="submit"]{
+    border:none;
+    outline:none;
+    width: 42%;
+
+}
+.Entradas input[type="submit"]:hover {
+    background: #a6af13;
+
+}
+.Entradas input[type="submit"]:focus {
+    color: solid #262626;
+    border: solid #7a7a7a;
+
+}
+
+.Entradas footer{
+    font: bold;
+    font-size: 8px;
+    outline: none;
+    margin-left: -7px;
+    color: #262626;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase
+}
