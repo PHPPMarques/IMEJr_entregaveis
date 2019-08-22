@@ -1,0 +1,57 @@
+body{
+    background: rgba(212, 38, 212, 0.671);
+    background-image: url("img/degrade-azul-roxo-crop.jpg");
+}
+
+.caixa{
+    margin-left: 5%;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    color: yellow;
+    text-align: center;
+}
+
+h1{
+    
+    margin-top: 0%;
+    text-transform: uppercase;
+    color: yellow;
+}
+#jogo3{
+    width: 273px;
+    height: 339px;
+    max-width: 100%;
+}
+
+#jogo2{
+    height: 339px;
+}
+
+.coluna{
+    float: left;
+    width: 33.33%;
+    padding: 0px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.geralt{
+    border: none;
+    background: rgba(212, 38, 212, 0) ;
+    cursor: pointer;
+}
+
+.feioso{
+    border: none;
+    background: rgba(212, 38, 212, 0) ;
+    cursor: pointer;
+}
+
+
+    .sora{   
+    border: none;
+    background: rgba(212, 38, 212, 0) ;
+    cursor: pointer;
+    
+}
+

@@ -1,0 +1,99 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.Avatar{
+    width: 450px;
+    background: rgba(0, 0,0, 0.5);
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.Foto{
+    position: relative;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+}
+
+.botao{
+    
+    position: absolute;
+    bottom: 0;
+    margin-left: calc(50%+55px);
+    border-radius:100%;
+    height: 40px;
+    width: 40px;
+    background-color: white;
+    border: none;
+    top: 280px;
+    left: 815px;
+}
+.camerabot{
+    display: block;
+    margin: inherit;
+    max-height: 80%;
+    border-radius: 50%;
+    position: absolute;
+    left: 5px;
+    top: 5px;
+
+    width: 30px;
+    height: 30px;
+    
+}
+
+
+h2{
+    
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+h1{
+    
+    font-family: 'Times New Roman', Times, serif; 
+}
+
+.botao:hover{
+    background: rgba(235, 187, 29, 0.5);
+}
+
+.botao:active{
+    background: rgba(251, 255, 0, 0.993);
+}
+
+.Comida{
+    border: none;
+    background: rgba(235, 187, 29, 0.5);
+}
+
+.Comida:hover{
+    border: none;
+    background: rgba(251, 255, 0, 0.993);
+}
+.Comida:active{
+    border: none;
+    background: rgba(255, 166, 0, 0.993);
+}
+
+.Sair{
+    border: none;
+    background: rgba(235, 187, 29, 0.5);
+}
+
+.Sair:hover{
+    border: none;
+    background: rgba(251, 255, 0, 0.993);
+}
+
+.Sair:active{
+    border: none;
+    background: rgba(255, 166, 0, 0.993);
+}
